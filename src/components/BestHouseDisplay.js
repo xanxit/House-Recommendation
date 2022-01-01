@@ -30,7 +30,7 @@ const BestHouse=(props)=>{
             <div className="relative w-auto my-6 mx-auto max-w-sm">
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 <div className="flex items-start justify-between p-5 border-b border-solid border-Gray-200 rounded-t">
-                  {props.result.length===0?"Which is the best house?":(<div><img src="https://png.pngtree.com/element_our/20200702/ourlarge/pngtree-red-ribbon-gold-medal-png-transparent-bottom-image_2284002.jpg" className="text-center mx-auto h-13 w-13 flex justify-center"/></div>)}
+                  {props.result.length===0?"Which is the best house?":(<div className="text-center font-bold"><img src="https://wallpapercave.com/wp/wp9639963.png" className="mx-32 h-20 w-20 flex justify-center"/>Best House:&nbsp;&#8595;</div>)}
                 </div>
                 <div className="flex flex-col items-center justify-center px-6 pt-6 border-t border-solid border-blueGray-200 rounded-b">
                   <button
