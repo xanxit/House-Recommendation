@@ -2,45 +2,6 @@ import React from "react";
 
 const Input = (props) => {
   return (
-    // <div className="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2 md:py-8 py-4">
-    //   <div>
-    //     <label className="text-gray-700" for="username">
-    //       Enter Rows :
-    //     </label>
-    //     <input
-    //       id="rows"
-    //       name="rows"
-    //       type="number"
-    //       value={props.row}
-    //       onChange={(e) => props.setRow(e.target.value)}
-    //       className="block w-full px-4 py-2 mt-2 border-black text-gray-700 bg-white border-2 rounded-md focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
-    //     />
-    //   </div>
-
-    //   <div>
-    //     <label className="text-gray-700" for="column">
-    //       Enter Column :
-    //     </label>
-    //     <input
-    //       id="column"
-    //       name="column"
-    //       type="number"
-    //       value={props.col}
-    //       onChange={(e) => props.setCol(e.target.value)}
-    //       className="block w-full px-4 py-2 mt-2 border-black border-2 text-gray-700 bg-white rounded-md focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
-    //     />
-    //   </div>
-    //   <button
-    //                 className="bg-emerald-500 text-white active:bg-emerald-600 font-bold  text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-    //                 type="button"
-    //                 onClick={() => {
-    //                     props.setMakeMatrix(true);
-    //                     props.setShowInput(false)
-    //                 }}
-    //               >
-    //                 Make Matrix
-    //               </button>
-    // </div>
     <>
     <div
         className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"

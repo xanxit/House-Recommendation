@@ -25,8 +25,8 @@ const Grid = () => {
     e.preventDefault();
     setShowInput(true);
     setMakeMatrix(!makeMatrix);
-    setRow(2);
-    setCol(2);
+    setRow(1);
+    setCol(1);
     setClicked(false);
   };
     const matrix = [];
